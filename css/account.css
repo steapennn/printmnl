@@ -1,0 +1,37 @@
+table{
+    top:150px;
+    height:100%;
+    width:100%;
+    overflow-y:scroll;
+    position:absolute;
+    display:block;
+    }
+    tr{
+    border: 1px solid #ddd;
+   
+  }
+  
+  td {
+    font-weight: 600;
+    font-size: 13px;
+    color:black; 
+    padding: .625em ;
+    text-align: center;
+  
+  }
+  
+  th{ 
+    font-weight: 600;
+    font-size: 11px;
+    position: sticky;
+    padding: .62em;
+    text-align: center;
+    top:0;
+    width:1%;
+    height:40px;  
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    background-color: #232323; 
+    color:white;
+    z-index: 1;
+  }

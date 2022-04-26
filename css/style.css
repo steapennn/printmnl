@@ -1,0 +1,62 @@
+body{
+  background:#ff9901 ;
+}
+.container{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0;
+    margin: 0px 0px 0px 0px ;
+  
+  }
+  .form{
+    background:#ffffff; 
+    padding: 25px 25px 25px 25px;
+    width:1100px;
+    height: 500px;
+    position:absolute; 
+    text-align: center; 
+    left: calc(50vw - 550px);
+    top: calc(50vh - 250px);
+    border-radius: 5px;
+    z-index:0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .frm1{
+    position:absolute;
+    left: calc(50vw - 550px);
+    top: calc(50vh - 250px);
+  }
+  .row{
+    color:black;
+    font-weight:500;
+    font-size: 15;
+    text-align: center;
+    width:400px;
+    height: 50px;
+    float: right;
+  
+  }
+  h1{
+    color:#ff9901;
+    font-weight: 800;
+    font-size:40px;
+    padding:10px 10px 10px 10px; 
+    position: relative;
+  }
+  
+  .toggle-password-eye {
+      float: right;
+      top: -25px;
+      right: 10px;
+      position: relative;
+      cursor: pointer;
+  }
+  .ams{
+    padding:10px 10px 10px 10px;
+    top:50px;
+    position: absolute;
+    margin:0;
+    
+  }
+  
